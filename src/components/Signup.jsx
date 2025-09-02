@@ -37,7 +37,7 @@ export default function Signup(){
 
     return(
         <div className="flex flex-col h-[100dvh] items-center">
-            <div className="px-6 flex flex-col gap-6 h-screen py-6 w-[375px]">
+            <div className="px-6 flex flex-col gap-6 py-6 h-[100dvh] w-[375px]">
                 <p className="font-bold text-3xl w-[70%]">Create your PopX account</p>
                 <form className="h-[100dvh]" onSubmit={(e) => {e.preventDefault(); createUser();}}>
                     <div className="flex flex-col justify-between h-full">
